@@ -1,28 +1,28 @@
 
-post:- http://localhost:3000/postdata
+post:- http://localhost:3000/api/postdata
 
 {
     "name" :"Satyam",
     "id" :420
 }
 
-getall:- http://localhost:3000/fetchdata
+getall:- http://localhost:3000/api/fetchdata
 
 
-get by id:- http://localhost:3000/fetchdata/20
+get by id:- http://localhost:3000/api/fetchdata/20
 
 {
 	"name": "JOHN",
 	"id": 20
 }
 
-put:- http://localhost:3000/updatedata/20
+put:- http://localhost:3000/api/updatedata/20
 
 {
     "name" : "qwerty"
 }
 
-delete :- http://localhost:3000/deletedata/20
+delete :- http://localhost:3000/api/deletedata/20
 
 response:-
 {
